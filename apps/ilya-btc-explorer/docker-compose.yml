@@ -10,7 +10,7 @@ services:
       # is listening inside the Docker container. If you need to
       # expose more ports, add them below.
       - 3002:3002
-    volumes:
+    # volumes:
       # Uncomment to mount your data directories inside
       # the Docker container for storing persistent data
       # - ${APP_DATA_DIR}/foo:/foo
